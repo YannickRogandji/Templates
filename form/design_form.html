@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width"/>
+  <title>JS Bin</title>
+  <style>
+    html, body
+    {
+      margin:0;
+      background-color: white;
+      font-family: helvetica, verdana, serif
+     
+    }
+  	input
+    {
+      display: block;
+      padding: 20px;
+   
+      border: none;
+      color: white;
+      background-color: black;
+      border-bottom:1px solid white;
+    }
+    input:hover
+    {
+      
+      color: white;
+      border-bottom:1px solid aqua;
+      
+    }
+  
+    form
+    {
+      display:flex; 
+      flex-flow:column wrap;
+      width:70%;
+      margin: auto;
+      color: white;
+      margin-top: 15px;
+      border-radius: 5px;
+      padding:20px;
+      box-shadow: -5px 5px 15px grey;
+      background-color: black;
+    }
+    #send
+    {
+      background-color: purple;
+      border: none;
+      padding:20px;
+      border-radius: 4px;
+      margin-top: 15px;
+    }
+   
+  </style>
+</head>
+<body>
+ 
+	<form method="POST" action="#">
+ 	 	<div>
+	  		<img width="70" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png"/>
+    	</div>
+	    <h1>
+	    	Get in touch!  
+	    </h1>
+	   
+	   	<input type="text" placeholder="Name"/>
+	    <input type="text" placeholder="Pseudo"/>
+	    <input type="email" placeholder="Mail" required/>
+	    <input id="send" type="submit" value="Send"/>
+  	</form>
+
+
+</body>
+</html> 
