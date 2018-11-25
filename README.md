@@ -2,7 +2,7 @@
 
 You can use the [editor on GitHub](https://github.com/YannickRogandji/templates/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-1. [form 1](https://github.com/YannickRogandji/templates/form/index.html)
+1. [form 1](https://yannickrogandji.github.io/Templates/form/index.html)
 
 ### Markdown
 
